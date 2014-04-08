@@ -4,7 +4,7 @@
 body {
   font-family: Josefin Slab, Constantia, Georgia, serif;
   padding: 8px;
-  line-height: 1.6em;
+  line-height: 1.3em;
   color: #444;
 }
 
@@ -19,8 +19,8 @@ h1 {
   font-weight: 400;
   text-align: center;
   font-variant: small-caps;
-  letter-spacing: 0.25em;
-  font-size: 1.9em;
+  letter-spacing: 0.15em;
+  font-size: 1.5em;
   margin-bottom: 5px;
   line-height: 1.1em;
 }
@@ -29,7 +29,7 @@ h2 {
   font-family: Josefin Slab, Constantia, Georgia, serif;
   font-weight: 400;
   text-align: center;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.15em;
   font-size: 0.9em;
   border-bottom: 1px solid #EEE;
   padding-bottom: 0.8em;
@@ -41,7 +41,7 @@ h2 {
 article p.last {
   border-top: 1px solid #EEE;
   margin-top: 0;
-  padding-top: 1.2em;
+  padding-top: 1.3em;
   text-align: center;
   font-size: 1.05em;
 }
@@ -74,7 +74,7 @@ a:active {
 
 footer {
   -border-top: 1px solid #EEE;
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: center;
   max-width: 760px;
   margin: 0 auto;
