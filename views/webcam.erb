@@ -1,8 +1,12 @@
 <% @webcams.each do |cam| %>
   <article>
+
     <h1><%= cam[:h1] %></h1>
     <h2><%= cam[:h2] %></h2>
-    <object type="application/x-shockwave-flash" data="http://marathon.infocity.kharkov.ua/wp-content/plugins/stream-video-player/player.swf?ver=1.3.3" width="848" height="480" name="svdo_0">
+    <div class="share">
+      <div class="share42init" data-title="<%= cam[:h1] + " (" + cam[:h2] +")" %>"></div>
+    </div>
+    <object type="application/x-shockwave-flash" data="http://marathon.infocity.kharkov.ua/wp-content/plugins/stream-video-player/player.swf?ver=1.3.3" width="760" height="430" name="svdo_0">
       <param name="quality" value="high">
       <param name="allowfullscreen" value="true">
       <param name="allowscriptaccess" value="always">

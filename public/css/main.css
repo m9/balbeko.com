@@ -37,6 +37,9 @@ h2 {
   line-height: 1.25em;
 }
 
+div.share {
+  float: right;
+}
 
 article p.last {
   border-top: 1px solid #EEE;
