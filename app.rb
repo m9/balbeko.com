@@ -7,7 +7,7 @@ get "/" do
   erb :index
 end
 
-get "/webcam", "/webcam/", "/webcams", "/webcams/" do
+get "/webcam/" do
   @title   = "Вебкамеры Харькова"
   @webcams = []
   @webcams << {h1: "Вебкамера #1: Вид на Харьковскую ОГА", h2: "Харьков, ул. Сумская, 37", file: "velo_sums37.stream", autostart: true, placeholder: "http://i.imgur.com/guKoSIC.jpg"}
@@ -21,4 +21,8 @@ get "/webcam", "/webcam/", "/webcams", "/webcams/" do
   @webcams << {h1: "Вебкамера #9", h2: "Харьков, пр. Ленина, 32",         file: "velo_lenina32_3.stream", autostart: false, placeholder: "http://i.imgur.com/guKoSIC.jpg"}
 
   erb :webcam
+end
+
+get "/webcam", "/webcams", "/webcams/" do
+  redirect to('/webcam/'), 301
 end
