@@ -11,7 +11,7 @@
       <param name="quality" value="high">
       <param name="allowfullscreen" value="true">
       <param name="allowscriptaccess" value="always">
-      <param name="flashvars" value="controlbar=over&amp;dock=true&amp;autostart=<%= cam[:autostart] %>&amp;volume=90&amp;provider=rtmp&amp;streamer=rtmp://stream.city.kharkov.ua:1935/elka&amp;file=<%= cam[:file] %>&amp;responsive=16:9&amp;stretching=exactfit&amp;logo.hide=true&amp;logo.position=top-left&amp;logo.file=&amp;logo.out=1&amp;screencolor=292929&amp;logo.link=&amp;bufferlength=5&amp;image=<%= cam[:placeholder] %>">
+      <param name="flashvars" value="controlbar=over&amp;dock=true&amp;autostart=<%= cam[:autostart] %>&amp;volume=90&amp;provider=rtmp&amp;streamer=rtmp://stream.city.kharkov.ua:1935/velo&amp;file=<%= cam[:file] %>&amp;responsive=16:9&amp;stretching=exactfit&amp;logo.hide=true&amp;logo.position=top-left&amp;logo.file=&amp;logo.out=1&amp;screencolor=292929&amp;logo.link=&amp;bufferlength=5&amp;image=<%= cam[:placeholder] %>">
       <!--[if !IE]>-->
       <video data="<%= cam[:placeholder] %>" class="videoWrapper wideScreen" controls="" autobuffer="">
         <source src="http://stream.city.kharkov.ua:1935/velo/<%= cam[:file] %>/playlist.m3u8" type="video/mp4">
