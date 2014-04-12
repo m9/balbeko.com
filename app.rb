@@ -19,6 +19,8 @@ get "/webcam/" do
   @webcams << {h1: "Вебкамера #7", h2: "Харьков, пр. Ленина, 32",         file: "velo_lenina32_1.stream", autostart: false, placeholder: "http://i.imgur.com/guKoSIC.jpg"}
   @webcams << {h1: "Вебкамера #8", h2: "Харьков, пр. Ленина, 32",         file: "velo_lenina32_2.stream", autostart: false, placeholder: "http://i.imgur.com/guKoSIC.jpg"}
   @webcams << {h1: "Вебкамера #9", h2: "Харьков, пр. Ленина, 32",         file: "velo_lenina32_3.stream", autostart: false, placeholder: "http://i.imgur.com/guKoSIC.jpg"}
+  @webcams << {h1: "Вебкамера #10", h2: "Харьков",                        file: "velo_lenina88.stream",   autostart: false, placeholder: "http://i.imgur.com/guKoSIC.jpg"}
+
 
   erb :webcam
 end
